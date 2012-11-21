@@ -27,8 +27,7 @@ border-width:5px;
 button{
 margin-left:10px;
 margin-bottom: 20px;
-border-style:grove;
-border-width:5px;
+box-shadow: 10px 10px 5px #888888;
 }
 
 
