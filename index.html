@@ -15,77 +15,96 @@
 	<meta http-equiv="cleartype" content="on">
 
 	<!-- StyleSheets under here -->
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 	<link rel="stylesheet" href="style.css" />
-
-	<!--Modernizer-->
-	<script src="modernizr.js"></script>
 
 </head>
 
 <body>
 
-<div data-role="page" id="home">
 <!--Logo inside header-->
-<div data-role="header" data-position="fixed" id="logo">
+<div id="logo">
 	<img src="http://i24.photobucket.com/albums/c39/youngbutcute07/Untitled-1-2.png" height="20px"/>
 </div>
 
-<div data-role="content" id="mainMenu">
 
-	<div id="title">
-		<center><h2>Devona Ward</h2></br> <!--Name-->
+
+<div id="title">
+		<center><h2>Devona Ward</h2><!--Name-->
+<h3><a href="https://github.com/dward1289/AVF_Project1.git">Git Repo</a> <a href="http://dward1289.github.com/AVF_Project1/">GH-Pages</a></h3>
 		<h3>AVF1212</h3></center> <!--Course Name-->
-	</div>
-
-<div data-role="listview">
-
-<div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a" data-iconpos="right">
-   <h3>iOS and Android Native Features</h3>
-   <i><p>Coming Soon</p></i>
 </div>
 
-<div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a" data-iconpos="right">
-   <h3>API Data Resources</h3>
-   <i><p>Coming Soon</p></i>
+<div id="appDroid">
+<div id="nativeTitle"><h3>iOS and Android Native Features</h3></div>
+
+<table>
+
+<tr>
+<td><button><img src="http://i24.photobucket.com/albums/c39/youngbutcute07/Unknown.jpeg" width="60px"/></button>
+</td>
+<td>
+ANDROID
+<p><i>Widget (View on home screen.)</i></p>
+</td>
+</tr>
+
+<tr>
+<td>
+<button><img src="http://i24.photobucket.com/albums/c39/youngbutcute07/images-2.jpeg" width="60px" height="53px"/></button>
+</td>
+<td>
+<p>iOS</p>
+<p><i>Calendar (Sync with iCloud)</i></p>
+</td>
+</tr>
+
+<tr>
+<td><button><img src="http://i24.photobucket.com/albums/c39/youngbutcute07/ApDroid.png" width="60px"/></button>
+</td>
+<td>
+iOS and Android
+<p><i>Notifications (Alerts)</i></p>
+</td>
+</tr>
+
+<tr>
+<td><button><img src="http://i24.photobucket.com/albums/c39/youngbutcute07/ApDroid.png" width="60px"/></button>
+</td>
+<td>
+<p>iOS and Android</p>
+<p><i>Contacts (Add Friends)</i></p>
+</td>
+</tr>
+
+<tr>
+<td><button><img src="http://i24.photobucket.com/albums/c39/youngbutcute07/ApDroid.png" width="60px"/></button>
+</td>
+<td>
+<p>iOS and Android</p>
+<p><i>Voice Recognition (Locate saved items and enter items.)</i></p>
+</td>
+</tr>
+</table>
 </div>
 
-<div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a" data-iconpos="right">
-   <h3>Research Discussions</h3>
-   <p>Pick a topic below.</p>  		
-   		<div data-role="collapsible" data-mini="true" data-iconpos="right">
-  		 	<h3>Data Research, Project Intent</h3>
-   			<i><p>Coming Soon</p></i>
-		</div>
-		
-		<div data-role="collapsible" data-mini="true" data-iconpos="right">
-  			 <h3>Industry Research</h3>
-   			 <i><p>Coming Soon</p></i>
-		</div>
-
-		<div data-role="collapsible" data-mini="true" data-iconpos="right">
-   			 <h3>Market Research</h3>
-  			 <i><p>Coming Soon</p></i>
-		</div>
-</div><!--End of collapsible button-->
-
-</div><!--End of list-->
-
-</div><!--End of content-->
-
-
-<div data-role="footer" data-position="fixed">
-2012
+<div id="apiBtn">
+<div id="jsonTitle"><h3>JSON-P Data APIs</h3></div>
+<button id="api1" style="height: 60px; width: 60px">API</button>
+<button id="api2" style="height: 60px; width: 60px">API</button>
 </div>
-</div><!--End of main page-->
 
- 
+<div id="researchDis">
 
-
+<div id="rdTitle"><b><h3>Research</h3></b></div>
+<ul>
+<li><a href="dataResearch.html"><h4>Week 1:Data Research, Project Intent</h4></a></li>
+<li><a href="industryResearch"><h4>Week 2:Industry Research</h4></a></li>
+<li><a href="marketResearch"><h4>Week 3:Market Research</h4></a></li>
+</ul>
+</div>
+	
 <!--Javascript-->
 <script src="main.js"></script>
-<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 
 </body>
 </html>

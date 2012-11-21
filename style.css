@@ -1,0 +1,43 @@
+#logo{
+border-style:solid;
+border-width:5px;
+background: #000000;
+}
+
+#nativeTitle{
+margin-left:10px;
+}
+
+#appDroid{
+border-style:solid;
+border-width:5px;
+}
+
+#jsonTitle{
+margin-left:10px;
+}
+
+#apiBtn{
+margin-top: 20px;
+margin-bottom: 20px;
+border-style:solid;
+border-width:5px;
+}
+
+button{
+margin-left:10px;
+margin-bottom: 20px;
+border-style:grove;
+border-width:5px;
+}
+
+
+
+#rdTitle{
+margin-left:10px;
+}
+
+#researchDis{
+border-style:solid;
+border-width:5px;
+}
