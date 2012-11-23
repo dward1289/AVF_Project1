@@ -10,9 +10,6 @@ window.addEventListener("DOMContentLoaded", function(){
         var btnChange = function () {
                 btnColor.style.background= "red";
 }
- 	btnColor.addEventListener;
-        btnColor.onclick = btnChange();
-
-	
+ 	btnColor.addEventListener = ("click", btnChange);
 	comingSoon();
 });
