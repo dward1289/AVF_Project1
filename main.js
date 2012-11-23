@@ -8,8 +8,8 @@ window.addEventListener("DOMContentLoaded", function(){
 	}
 
         var btnChange = function () {
-                btnColor.style.background= "red";
+                document.getElementById("api1").style.background= "red";
 }
- 	btnColor.addEventListener = ("click", btnChange);
+ 	document.getElementById("api1").addEventListener = ("click", btnChange);
 	comingSoon();
 });
